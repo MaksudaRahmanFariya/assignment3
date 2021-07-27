@@ -22,6 +22,8 @@ for training.  We should remove unnecessary features which can be cause of overf
 epochs and plot the validation loss graph. Once validation loss
 start to degrade, we stop to train our model . It can be implemented 
 by monitoring loss graph or set an early stopping trigger. </p>
+<img src="early-stopping-graphic.jpg" alt ="Early_stopping-graph">
+<div style="margin:20px;padding:20px;">Early Stopping Graph </div>
 
 <h4>Regularization:</h4>
 <p>It is technique to constrain network from learning complex model
@@ -40,6 +42,6 @@ If we are unable to gather more data and are constrained to the data we have in 
 <h4>Dropout:</h4>
 <p>By applying dropout to our layers, we just ignore a subset of units of our networkwith a set probability. 
 We can reduce interdependent learning among units, which can be cause of overfitting. 
-With dropout, we need need more epochs for our model to converge.
+With dropout, we need more epochs for our model to converge.
 </p>
 
