@@ -29,6 +29,15 @@ by monitoring loss graph or set an early stopping trigger. </p>
 <p>It is technique to constrain network from learning complex model
 which may therefore overfit. We can add penalty terms on cost function to push estimated coefficients towards zero.
 We normally use L2 regularization which allows weights to push to zero but not exactly zero.</p>
+<p>L2 Regularization:</p>
+<h3>Cost Function = Loss + λ/2m * ∑<var>||w||<sup>2</sup></var></h3>
+
+<p>L1 Regularization:</p>
+<h3>Cost Function = Loss + λ/2m * ∑||w||</h3>
+
+<p>lambda is the regularization parameter. It is the hyperparameter whose value is optimized for better results.</p>
+
+ 
 <h4>Ensembling:</h4>
 <p>This technique is used to overcome overfitting.Mainly it creates multiple models
 and combine them to produce more accurate results. Obviously it is better than single model. </p>
